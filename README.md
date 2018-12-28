@@ -5,6 +5,7 @@
 
 已更新百度地图Android版定位SDK（v7.2）并提供watchPosition和clearWatch方法。[Demo](https://github.com/hewz/BDLocationDemo)
 
+注意：如果定位请求成功未返回城市等信息，需要修改BaiduLocation.java文件中的代码，显示 option.setIsNeedAddress(true);
 
 ### 一，申请密钥
 请参照：[申请Android定位SDK密钥](http://developer.baidu.com/map/index.php?title=android-locsdk/guide/key)
